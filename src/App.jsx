@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from 'react';
 
-const PHONE = '0176 12345678';
-const PHONE_TEL = '+4917612345678';
-const PHONE_LINK = '4917612345678';
-const EMAIL = 'info@glanzwerk-reinigung.de';
+const PHONE = '0163 4617710';
+const PHONE_TEL = '+491634617710';
+const PHONE_LINK = '491634617710';
+const EMAIL = 'kontakt.glanzwerk@hotmail.com';
 
 const SERVICE_PRICES = {
   Büroreinigung: 1.25,
