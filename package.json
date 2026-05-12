@@ -1,21 +1,5 @@
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy:pages": "vite build && gh-pages -d dist"
-  },
-  "dependencies": {
-    "autoprefixer": "latest",
-    "gh-pages": "latest",
-    "postcss": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.0",
-    "@vitejs/plugin-react": "^6.0.1",
-    "vite": "^8.0.12"
-  }
+"scripts": {
+  "dev": "node node_modules/vite/bin/vite.js",
+  "build": "node node_modules/vite/bin/vite.js build",
+  "preview": "node node_modules/vite/bin/vite.js preview"
 }
