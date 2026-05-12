@@ -19,11 +19,14 @@ function Logo({ hero = false }) {
     <img
       src="/logo.png"
       alt="Glanzwerk Gebäudereinigung"
-      className={hero ? 'w-[300px] md:w-[520px]' : 'w-[180px] md:w-[240px]'}
+      className={
+        hero
+          ? 'block h-auto w-[320px] object-contain md:w-[560px]'
+          : 'block h-auto w-[190px] object-contain md:w-[260px]'
+      }
     />
   );
 }
-
 function App() {
   const [service, setService] = useState('Büroreinigung');
   const [size, setSize] = useState(100);
