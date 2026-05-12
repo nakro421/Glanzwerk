@@ -6,16 +6,16 @@
     "deploy:pages": "vite build && gh-pages -d dist"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "autoprefixer": "latest",
     "gh-pages": "latest",
     "postcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest",
-    "vite": "latest"
+    "tailwindcss": "latest"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.0"
+    "@tailwindcss/postcss": "^4.3.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.12"
   }
 }
